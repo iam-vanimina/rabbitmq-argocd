@@ -1,0 +1,4 @@
+deployment:
+  imageURL: rabbitmq # offical docker image
+  
+  imageVersion: 4.2.5
