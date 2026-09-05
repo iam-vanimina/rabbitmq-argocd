@@ -25,7 +25,7 @@ spec:
       - name: rabbitmq
         image: "{{ .Values.deployment.imageURL }}:{{ .Values.deployment.imageVersion }}"
         imagePullPolicy: Always
-      envFrom:
+        envFrom:
         - secretRef:
            name: rabbitmq  
         
